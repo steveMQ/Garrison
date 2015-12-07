@@ -2,6 +2,10 @@
   font-family: Georgia, Arial;
 }
 
+.clear {
+  clear:both;
+}
+
 body {
   background-color: #d4dde2;
   padding-top: 40px;
@@ -9,10 +13,13 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 900px;
+  width: 750px;
   background-color: lime;
 }
 
+.header {
+  margin-bottom: 25px;
+}
 
 .header > .icon {
   height: 25px;
@@ -26,11 +33,17 @@ body {
   font-size: 13px;
   color: #4c4c4c;
   margin-left: 25px;
+  text-align: center;
 }
 
 .header > button {
   border: none;
   border-radius: 4px;
   font-family: Arial;
+  font-size: 12.09px;
   color: #fff;
+  padding:15px 35px;
+  float: right;
+  text-transform: uppercase;
+  background-color: #4d4e6f;
 }
