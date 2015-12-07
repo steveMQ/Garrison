@@ -1,0 +1,36 @@
+* {
+  font-family: Georgia, Arial;
+}
+
+body {
+  background-color: #d4dde2;
+  padding-top: 40px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 900px;
+  background-color: lime;
+}
+
+
+.header > .icon {
+  height: 25px;
+  width: 25px;
+  background-color: #4d4e6f;
+  margin-right: 15px;
+  display: inline-block;
+}
+.header > span {
+  font-family: Arial;
+  font-size: 13px;
+  color: #4c4c4c;
+  margin-left: 25px;
+}
+
+.header > button {
+  border: none;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #fff;
+}
