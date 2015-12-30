@@ -14,7 +14,6 @@ body {
 .container {
   margin: 0 auto;
   width: 580px;
-  /*background-color: lime;*/
 }
 
 .header {
@@ -35,7 +34,6 @@ body {
 .header > .icon > i {
   color: #fff;
   font-size: 15px;
-
 }
 
 .header > .icon > .fa-facebook{
@@ -75,4 +73,197 @@ body {
   background-color: #4d4e6f;
   outline: none;
   cursor: pointer;
+}
+
+.garrison {
+  height: 280px;
+  background-color: #71b3cd;
+  border-radius: 4px;
+  margin-bottom:26px;
+}
+
+.garrison img {
+  display: block;
+  margin: 0 auto;
+}
+
+.garrison .date {
+  font-family: Georgia;
+  font-size: 13px;
+  color: #4c4c4c;
+  margin-top: 25px;
+  display: block;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.post{
+  background-color: #fff;
+  border-radius: 4px;
+  margin-bottom: 26px;
+  padding-bottom: 40px;
+}
+
+.post img {
+  -webkit-border-top-left-radius: 4px;
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  -moz-border-radius-topright: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.post h2 {
+  font-size: 35px;
+  color: #778A90;
+  line-height: 40px;
+  font-family: Georgia;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 30px;
+  padding-top: 40px;
+  display: block;
+  text-align: center;
+  font-weight: normal;
+}
+
+.post p {
+  font-size: 22px;
+  color: #4c4c4c;
+  line-height: 26px;
+  font-family: Georgia;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 45px;
+}
+
+.post-holder {
+  text-align: center;
+
+}
+
+.post .post-holder a {
+  font-size: 13px;
+  color: #4c4c4c;
+  line-height: 26px;
+  font-family: Georgia;
+  text-decoration: none;
+}
+
+.post .post-holder .divider {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: inline;
+}
+
+.post .post-holder span {
+  font-size: 13px;
+  color: #4c4c4c;
+  line-height: 26px;
+  font-family: Georgia;
+  margin-right: 10px;
+}
+
+.post .post-holder .icon {
+  height: 20px;
+  width: 20px;
+  background-color: #71b3cd;
+  margin-right: 10px;
+  margin-top: 7px;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.post .post-holder .icon {
+  color: #fff;
+  font-size: 15px;
+}
+
+.post .post-holder .icon .fa-facebook {
+  margin-top: 4px;;
+  margin-left: 7px;
+}
+
+.post .post-holder .icon .fa-twitter {
+  margin-top:4px;
+  margin-left: 2px;
+}
+
+.post .solid-banner {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  background-color: #4d4e6f;
+  letter-spacing: 4px;
+  font-family: Georgia;
+  line-height: 40px;
+  text-transform: uppercase;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  -webkit-border-top-left-radius: 4px;
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  -moz-border-radius-topright: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+footer h3 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  color: #4c4c4c;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 00px;
+}
+
+footer .address, footer .contact-info  {
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 15px;
+  color: #4c4c4c;
+  line-height: 21px;
+  text-align: center;
+}
+
+footer .address {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+footer .contact-info span {
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 15px;
+  color: #4c4c4c;
+  line-height: 21px;
+}
+
+footer .contact-info span {
+  display: inline-block;
+}
+
+footer .contact-info .divider {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer .contact-info span a {
+  text-decoration: none;
+  color: #4c4c4c;
+}
+
+footer .photo-credits {
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 21px;
+  color: #4c4c4c;
+  text-align: center;
 }
